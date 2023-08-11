@@ -52,3 +52,10 @@ p{
     padding-top: 12px;
     color: hsl(220, 15%, 55%);
 }
+
+@media (min-width: 375px) and (max-width: 950px) {
+    .container {
+        width: 80%;
+        height: 70vh;
+    }
+}
