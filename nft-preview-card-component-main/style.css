@@ -1,0 +1,97 @@
+*{
+    padding: 0; 
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+}
+.container{
+    width: 24%;
+    height: 78vh;
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+}
+.part1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 58%;
+}
+.part1 img{
+    object-fit: cover;
+    width: 87%;
+    /* border: 1px solid wheat; */
+    border-radius: 15px;
+}
+.part2{
+    height: 35%;
+    width: 87%;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+h3{
+   color: hsl(0, 0%, 100%);
+}
+p{
+    color: hsl(215, 51%, 70%);
+}
+
+.count{
+    display: flex;
+    justify-content: space-between;
+}
+.price{
+    display: flex;
+    width: 37%;
+    justify-content: space-around;
+}
+.price img{
+    width: 16px;
+    height: 23px;
+}
+.price p{
+    color: hsl(178, 100%, 50%);
+}
+.day{
+    display: flex;
+    width: 28%;
+    justify-content: space-around;
+}
+.day img{
+    width: 16px;
+    height: 16px;
+}
+.day p{
+    font-size: 12px;
+}
+.user{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    padding-top: 16px;
+    gap: 6px;
+}
+.user img{
+    width: 35px;
+}
+.name{
+    color: white
+}
