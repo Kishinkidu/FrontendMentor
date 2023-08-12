@@ -95,3 +95,9 @@ p{
 .name{
     color: white
 }
+@media (min-width: 375px) and (max-width: 875px){
+    .container{
+        width: 84vw;
+        height: 86vh;
+    }
+}
