@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+    background-color:  hsl(216, 12%, 8%);
+}
+.container{
+    width: 28%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(214, 18%, 18%);
+    border-radius: 20px;
+}
+.contenedor-estrella{
+    width: 85%;
+    height: 13%;
+    display: flex;
+    align-items: flex-end;
+}
+.star{
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(213, 19%, 21%);
+
+}
+.container-lyrics{
+    width: 85%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container-lyrics h2{
+    color: hsl(0, 0%, 100%);
+}
+.container-lyrics p{
+    color: hsl(216, 12%, 54%);
+}
+.formulario{
+    width: 85%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.number{
+    padding: 15px;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background-color: hsl(213, 19%, 21%);
+    border-style: none;
+    font-weight: bold;
+    cursor: pointer;
+    color:hsl(216, 12%, 54%);
+}
+.number:hover{
+    background-color:hsl(25, 97%, 53%);
+    color:hsl(0, 0%, 100%);
+}
+
+.calificacion{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.btn{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.number.selected {
+    background-color: #ddd7c5; /* Cambia esto a tu estilo deseado */
+    color: red; /* Cambia esto a tu estilo deseado */
+}
+.btn button{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-style: none;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}

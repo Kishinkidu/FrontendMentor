@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" defer>
+  <script defer src="./scripts.js" ></script>  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Rating state start -->
+  <div class="container">
+    <div class="contenedor-estrella">
+      <div class="star">
+        <img src="./images/icon-star.svg" alt="">
+      </div>
+    </div>
+    <div class="container-lyrics">
+      <h2>How did we do?</h2>
+      <p>Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!</p>
+    </div>
+    <div class="formulario">
+      <div class="calificacion">
+        <button class="number" value="1"  type="button" id="rating1"
+        >1</button>
+        <button class="number" id="rating2"
+        value="2" type="button">2</button>
+        <button class="number" value="3" id="rating3"type="button">3</button>
+        <button class="number" value="4" id="rating4"type="button">4</button>
+        <button class="number" value="5" id="rating5"type="button">5</button>
+      </div>
+      <div class="btn">
+        <button class="button" type="submit" onclick="formulario()" >Submit</button>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
