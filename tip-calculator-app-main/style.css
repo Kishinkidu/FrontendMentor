@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(185, 41%, 84%);
+    font-size: 24px;
+    font-family: 'Space Mono', monospace;
+}
+.container{
+    border: 1px solid green;
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: 26rem;
+    grid-gap: 25px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 40px;
+
+}
+.mount{
+    font-size: 15px;
+    height: 13vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.mount p{
+    color:hsl(186, 14%, 43%);
+}
+.barwhite{
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(189, 41%, 97%);
+}
+.barwhite img{
+    width: 17px;
+    height: 21px;
+    padding-left: 15px;
+}
+.barwhite input{
+    height: 4vh;
+    width: 85%;
+    margin-right: 15px;
+    font-size: 24px;
+    border: none;
+    color: hsl(183, 100%, 15%);
+    font-weight: bold;
+    font-family: 'Space Mono', monospace;
+    background: hsl(189, 41%, 97%);
+    outline: none;    
+}
+.barwhite input[type=number]::-webkit-outer-spin-button,
+.barwhite input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.percentage{
+    height: 22vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.subtitle{
+    color:hsl(186, 14%, 43%);
+    font-size: 15px;
+}
+.rating{
+    display: grid;
+    grid-template-columns: repeat(3,6.8rem);
+    grid-template-rows: repeat(2,2.5rem);
+    gap: 16px;
+}
+.rating button{
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 5px;
+    color: hsl(189, 41%, 97%);
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Space Mono', monospace;
+    cursor: pointer;
+}
+.rating button:hover{
+    background-color:hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+.rating input{
+    border: none;
+    font-size: 24px;
+    color:hsl(186, 14%, 43%);
+    padding-right: 10px;
+    font-family: 'Space Mono', monospace;
+    outline: none; 
+}
+.rating input[type=number]::-webkit-outer-spin-button,
+.rating input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.people{
+    height: 16vh;
+    color:hsl(186, 14%, 43%);
+    font-size: 15px;
+}
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.border{
+    border: 1px solid brown;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 15px;
+    background-color: hsl(183, 100%, 15%);
+}
+.totales{
+    height: 23vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.monto{
+    display: flex;
+    justify-content: space-around;
+}
+.gap-25{
+    gap: 25px !important;
+}
+.tipa{
+    font-size: 15px;
+    color:hsl(189, 41%, 97%);
+    
+}
+.person{
+    font-size: 12px;
+    color: hsl(184, 14%, 56%);
+}
+.resultado{
+    font-size: 35px;
+    color: hsl(172, 67%, 45%);
+}
+.btnReset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    width: 100%;
+}
+.btn{
+    width: 82%;
+    height: 6.5vh;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: hsl(186deg 81.25% 20.07%);
+    color: hsl(183, 100%, 15%);
+    border: none;
+    cursor: pointer;
+}
+.btnReset button:hover{ 
+    background-color:hsl(172, 67%, 45%);
+}
