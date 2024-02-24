@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+}
+.containerGlobal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding: 100px;
+    background-color: hsl(30, 54%, 90%);
+    font-size: 16px;
+
+}
+
+.container{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    width: 55%;
+}
+.total{
+    width: 85%;
+    padding: 30px;
+
+}
+.image{
+    
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+}
+.title{
+    padding: 23px;
+    color: hsl(24, 5%, 18%);
+}
+.description{
+    padding: 10px;
+    padding-bottom: 30px;
+}
+.preparation{
+    padding: 20px;
+    display: grid;
+    gap: 30px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 15px;
+}
+.preparation h2{
+    color: hsl(332, 51%, 32%);
+}
+.preparation ul{
+    display: grid;
+    gap: 10px;
+    padding-left: 20px;
+    color: hsl(14, 45%, 36%);
+}
+.espaciado{
+    padding-left:15px ;
+}
+.ingredients{
+    padding: 20px;
+    display: grid;
+    gap: 30px;
+    color: hsl(14, 45%, 36%);
+}
+.ingredients ul{
+    display: grid;
+    gap: 10px;
+    padding-left: 20px;
+}
+.intructions{
+    padding: 20px;
+    display: grid;
+    gap: 30px;
+    color: hsl(14, 45%, 36%);
+}
+
+.intructions ol{
+    display: grid;
+    gap: 10px;
+    padding-left: 20px;
+}
+.resaltar{
+    color: hsl(30, 10%, 34%);
+    font-weight: bold;
+}
+.nutrition{
+    padding: 20px;
+    display: grid;
+    gap: 30px;
+    margin-left: 15px;
+}
+.nutrition h2 {
+    color: hsl(14, 45%, 36%);
+}
+.caracteristica{
+    display: grid;
+    gap: 20px;
+}
+.sinline{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    padding: 7px;
+}
+.line{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    margin-left: 15px;
+    padding: 7px;
+}
+.caracteristica p{
+    width: 10%;
+}
+.resultado{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.color{
+    color: hsl(24, 5%, 18%);
+}
+
+@media (max-width: 375px) {
+    .containerGlobal{
+        width: 100%;
+        padding: 0;
+        justify-content: center;
+    }
+    .container{
+        width: 100%;
+        justify-content: center;
+    }
+    .total{
+        width: 100%;
+        justify-content: center;
+    }
+}
