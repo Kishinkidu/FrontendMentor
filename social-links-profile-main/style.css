@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+.global{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.container{
+    width: 30%;
+    height: auto;
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+}
+.image{
+    width: 30%;
+    border-radius: 50%;
+ 
+}
+.image img{
+    width: 100%;
+    border-radius: 50%;
+}
+.user{
+    color: hsl(0, 0%, 100%);
+    padding-top: 5px;
+    
+}
+.ubication{
+    color: hsl(75, 94%, 57%);
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+.frase{
+    color: hsl(0, 0%, 100%);
+    padding-top: 10px;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    gap: 15px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.redes button{
+    height: 40px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border-style: none;
+    cursor: pointer;;
+}
+.redes :active{
+    background-color: hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 20%);
+    font-weight: bold;
+}
+@media (max-width: 375px){
+    .global{
+        height: 125vh;
+    }
+    .container{
+        width: 85%;
+        height: auto;
+    }
+    .redes{
+        height: 45%;
+    }
+}
